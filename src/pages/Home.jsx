@@ -40,8 +40,7 @@ function Home() {
         };
     }, [attempt]);
 
-    // Scroll to #section when arriving from another page (e.g. /studentsupport -> /#notices).
-    // Wait until data is loaded because the hero/notice heights change while loading.
+   
     useEffect(() => {
         if (!location.hash || status === "loading") return;
         document.getElementById(location.hash.slice(1))?.scrollIntoView({ behavior: "smooth" });
