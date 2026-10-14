@@ -29,12 +29,13 @@ npm run build
 - Responsive navigation with active section indication and mobile menu.
 - Hero area with clickable latest notices; the Latest Notices panel always shows the newest source-data notices and is independent of global search/category filters.
 - Notices and online services rendered from local arrays.
-- Shared global search across notices, services and student support links.
+- Shared global search across notices and services. Student Support has its own page (`/studentsupport`) with its own search.
 - Shared category filtering across notices and services, with clear-filters action and no-results states.
 - Search-term highlighting in notice and service cards.
 - Notice details modal with dialog semantics, Escape-to-close, outside-click close, formatted date and clearly labelled sample content.
 - Simulated asynchronous data loading, error state and retry. Add `?error` to the page URL to test the simulated error once; Retry succeeds.
-- Toast feedback for service, support and privacy-policy demo actions.
+- Toast feedback for service, support and privacy-policy demo actions (shared `Toast` component).
+- Blue + white theme across Home, Student Support, Login and Register.
 - Keyboard focus styles, labelled primary/useful navigation, grouped category-filter controls, reduced-motion support and responsive layout.
 
 ## State-management notes
