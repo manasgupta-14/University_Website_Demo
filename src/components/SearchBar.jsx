@@ -9,7 +9,7 @@ export default function SearchBar({
             <div className="flex flex-wrap items-end gap-4">
                 <div className="min-w-0 flex-1">
                     <label htmlFor="global-search" className="mb-2 block font-semibold text-slate-900">
-                        Search notices, services and student support
+                        Search notices and services
                     </label>
                     <input
                         id="global-search"

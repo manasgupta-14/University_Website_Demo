@@ -45,7 +45,7 @@ export default function NoticeModal({ notice, onClose }) {
                         type="button"
                         onClick={onClose}
                         aria-label="Close notice details"
-                        className="rounded-lg px-3 py-1 text-xl text-slate-600 hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-pine"
+                        className="rounded-lg px-3 py-1 text-xl text-slate-600 hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-blue-600"
                     >
                         ×
                     </button>
@@ -58,7 +58,7 @@ export default function NoticeModal({ notice, onClose }) {
                 <p id="notice-dialog-description" className="leading-7 text-slate-700">
                     {notice.details}
                 </p>
-                <p className="mt-6 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">
+                <p className="mt-6 rounded-lg bg-blue-50 p-3 text-sm text-blue-900">
                     Sample notice — content is fictional and provided for this frontend demonstration.
                 </p>
                 <button type="button" onClick={onClose} className="btn-primary mt-5">

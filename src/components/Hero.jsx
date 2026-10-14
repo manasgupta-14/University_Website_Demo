@@ -5,7 +5,7 @@ export default function Hero({ notices = [], onOpen, status = "ready" }) {
         <section id="home" className="hero-section scroll-mt-28 px-4 py-14 text-white sm:px-6 sm:py-16">
             <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 md:grid-cols-2">
                 <div>
-                    <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-amber-300">
+                    <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-sky-100">
                         Flexible learning • Student-first support
                     </p>
                     <h1 className="mb-4 text-3xl font-bold leading-tight md:text-5xl">
@@ -46,7 +46,7 @@ export default function Hero({ notices = [], onOpen, status = "ready" }) {
                                     <button
                                         type="button"
                                         onClick={() => onOpen(notice)}
-                                        className="text-left font-semibold text-slate-800 hover:text-pine focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-600"
+                                        className="text-left font-semibold text-slate-800 hover:text-pine focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600"
                                     >
                                         {notice.title}
                                     </button>

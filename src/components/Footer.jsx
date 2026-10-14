@@ -1,6 +1,8 @@
+import { Link } from "react-router";
+
 export default function Footer({ onDemo }) {
     return (
-        <footer id="contact" className="scroll-mt-28 border-t-4 border-amber bg-deep px-4 pb-6 pt-12 text-slate-100 sm:px-6">
+        <footer id="contact" className="scroll-mt-28 border-t-4 border-blue-400 bg-deep px-4 pb-6 pt-12 text-slate-100 sm:px-6">
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
                 <div>
                     <h2 className="mb-3 text-lg font-bold text-white">Aarohan Open University</h2>
@@ -14,11 +16,11 @@ export default function Footer({ onDemo }) {
                 <nav aria-label="Useful links">
                     <h2 className="mb-3 text-lg font-bold text-white">Useful Links</h2>
                     <ul className="space-y-2">
-                        <li><a className="footer-link" href="#notices">Notices</a></li>
-                        <li><a className="footer-link" href="#services">Online Services</a></li>
-                        <li><a className="footer-link" href="#support">Student Support</a></li>
+                        <li><Link className="footer-link" to="/#notices">Notices</Link></li>
+                        <li><Link className="footer-link" to="/#services">Online Services</Link></li>
+                        <li><Link className="footer-link" to="/studentsupport">Student Support</Link></li>
                         <li>
-                            <button type="button" onClick={() => onDemo("Demo privacy policy: no personal information is collected or stored by this frontend-only website.")} className="footer-link">
+                            <button type="button" onClick={() => onDemo?.("Demo privacy policy: no personal information is collected or stored by this frontend-only website.")} className="footer-link">
                                 Privacy Policy
                             </button>
                         </li>

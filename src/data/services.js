@@ -73,31 +73,44 @@ export const services = [
 export const quickLinks = [
     {
         label: "Check result",
+        icon: "📊",
+        hint: "See your term-end and practical exam results.",
         target: "services",
         note: ""
     },
     {
         label: "Download admit card",
+        icon: "🪪",
+        hint: "Get your exam permission letter / admit card.",
         target: null,
         note: "Demo: admit card download is not connected"
     },
     {
         label: "Exam timetable",
+        icon: "🗓️",
+        hint: "Latest theory and practical exam dates.",
         target: "notices",
         note: ""
     },
     {
         label: "Apply for admission",
+        icon: "🎓",
+        hint: "Start your online admission application.",
+        to: "/register",
         target: null,
         note: "Demo: online admission form is not connected"
     },
     {
         label: "Track admission status",
+        icon: "🔎",
+        hint: "Check where your application currently stands.",
         target: null,
         note: "Demo: status tracking is not connected"
     },
     {
         label: "Raise a grievance",
+        icon: "💬",
+        hint: "Contact the help desk with a query or complaint.",
         target: "contact",
         note: ""
     },
